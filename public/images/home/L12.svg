@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Frame48096295" width="1920" height="369" viewBox="0 0 1920 369" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<g clip-path="url(#clip0_380_125006)">
+<path d="M1960.15 308.851C1937.29 273.84 1938.23 148.342 1658.46 243.163C1460.67 310.195 1433.9 286.049 1336.99 197.247C1240.09 108.446 957.423 -137.751 578.75 131.92C275.812 347.656 63.9708 368.138 -4.08246 351.412" stroke="white" stroke-width="3" stroke-dasharray="0,0,0,0,0,2181.03271484375"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.494016509643676s" values="0,0,0,0,0,2181.03271484375; 0,0,0,1841.474112648998,339.558602194752,0; 0,0,169.779301097376,2011.253413746374,0,0; 0,1090.516357421875,0,1090.516357421875,0,0" keyTimes="0; 0.5; 0.5778435371197718; 1" begin="0.9458546335832088s"></animate></path>
+</g>
+<defs>
+<clipPath id="clip0_380_125006">
+<rect width="1920" height="369" fill="white" stroke-dasharray="0,0,0,0,0,4578"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="4.510598597910286s" values="0,0,0,0,0,4578; 0,0,0,3789.915230709136,788.0847692908643,0; 0,0,394.04238464543215,4183.957615354568,0,0; 0,2289,0,2289,0,0" keyTimes="0; 0.5; 0.5860730416438253; 1" begin="1.7152225824695078s"></animate></rect>
+</clipPath>
+</defs>
+<setting>{"type":"shift","speed":9,"random":0.8,"shift":0.5,"size":0.8,"rupture":18}</setting></svg>

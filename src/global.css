@@ -1,0 +1,2387 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: Outfit, Urbanist, Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: hidden;
+  background-color:#5e409e;
+}
+
+div.bg{
+  background-color:#5e409e;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+
+div.bg1{
+  background-color:black;
+  position:absolute;
+  left:0%;
+  top:0%;
+  width:100%;
+  height:100%;
+  opacity:1;
+}
+
+div.motionElement{
+  position:absolute;
+  visibility:hidden;
+  left:50%;
+  top:50%;
+  width:100%;
+  height:100%; opacity:1;
+}
+
+
+
+
+
+
+@keyframes bg1_0_1{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_0_1{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_0_1;
+  left:0%; top:0%;
+}
+
+@keyframes line1_0_1{
+  from {left:70%; top:60%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_0_1{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_0_1;
+  left:70%; top:0%;
+}
+
+@keyframes area1_0_1{
+  from {left:75%; top:60%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_0_1{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_0_1;
+  left:75%; top:0%;
+}
+
+@keyframes image1_0_1{
+  from {left:40%; top:110%; opacity: 0.8;}
+  to {left:40%; top:60%; opacity: 1;}
+}
+
+div.image1_0_1{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image1_0_1;
+  left:40%; top:60%;
+}
+
+@keyframes label1_0_1{
+  from {left:40%; top:100%; opacity: 0.8;}
+  to {left:40%; top:50%; opacity: 1;}
+}
+
+div.label1_0_1{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label1_0_1;
+  left:40%; top:50%;
+}
+
+@keyframes bg1_1_0{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_1_0{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_1_0;
+  left:0%; top:0%;
+}
+
+@keyframes line1_1_0{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:60%; opacity: 1;}
+}
+
+div.line1_1_0{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_1_0;
+  left:70%; top:60%;
+}
+
+@keyframes area1_1_0{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:60%; opacity: 1;}
+}
+
+div.area1_1_0{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_1_0;
+  left:75%; top:60%;
+}
+
+@keyframes image1_1_0{
+  from {left:40%; top:60%; opacity: 0.8;}
+  to {left:40%; top:110%; opacity: 1;}
+}
+
+div.image1_1_0{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image1_1_0;
+  left:40%; top:110%;
+}
+
+@keyframes label1_1_0{
+  from {left:40%; top:50%; opacity: 0.8;}
+  to {left:40%; top:100%; opacity: 1;}
+}
+
+div.label1_1_0{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label1_1_0;
+  left:40%; top:100%;
+}
+
+@keyframes bg1_1_2{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_1_2;
+  left:0%; top:0%;
+}
+
+@keyframes line1_1_2{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_1_2;
+  left:70%; top:0%;
+}
+
+@keyframes area1_1_2{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_1_2;
+  left:75%; top:0%;
+}
+
+@keyframes image1_1_2{
+  from {left:40%; top:60%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image1_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image1_1_2;
+  left:20%; top:10%;
+}
+
+@keyframes label1_1_2{
+  from {left:40%; top:50%; opacity: 0.8;}
+  to {left:30%; top:-50%; opacity: 1;}
+}
+
+div.label1_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label1_1_2;
+  left:30%; top:-50%;
+}
+
+@keyframes label2_1_2{
+  from {left:100%; top:30%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label2_1_2{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label2_1_2;
+  left:45%; top:30%;
+}
+
+@keyframes bg1_2_1{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_2_1;
+  left:0%; top:0%;
+}
+
+@keyframes line1_2_1{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_2_1;
+  left:70%; top:0%;
+}
+
+@keyframes area1_2_1{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_2_1;
+  left:75%; top:0%;
+}
+
+@keyframes image1_2_1{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:40%; top:60%; opacity: 1;}
+}
+
+div.image1_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image1_2_1;
+  left:40%; top:60%;
+}
+
+@keyframes label1_2_1{
+  from {left:30%; top:-50%; opacity: 0.8;}
+  to {left:40%; top:50%; opacity: 1;}
+}
+
+div.label1_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label1_2_1;
+  left:40%; top:50%;
+}
+
+@keyframes label2_2_1{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:100%; top:30%; opacity: 1;}
+}
+
+div.label2_2_1{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label2_2_1;
+  left:100%; top:30%;
+}
+
+@keyframes bg1_2_3{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_2_3;
+  left:0%; top:0%;
+}
+
+@keyframes line1_2_3{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_2_3;
+  left:70%; top:0%;
+}
+
+@keyframes area1_2_3{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_2_3;
+  left:75%; top:0%;
+}
+
+@keyframes image1_2_3{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:-20%; top:120%; opacity: 1;}
+}
+
+div.image1_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image1_2_3;
+  left:-20%; top:120%;
+}
+
+@keyframes label2_2_3{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:-25%; top:80%; opacity: 1;}
+}
+
+div.label2_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label2_2_3;
+  left:-25%; top:80%;
+}
+
+@keyframes image2_2_3{
+  from {left:100%; top:30%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image2_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image2_2_3;
+  left:20%; top:10%;
+}
+
+@keyframes label3_2_3{
+  from {left:130%; top:30%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label3_2_3{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label3_2_3;
+  left:45%; top:30%;
+}
+
+@keyframes bg1_3_2{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_3_2;
+  left:0%; top:0%;
+}
+
+@keyframes line1_3_2{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_3_2;
+  left:70%; top:0%;
+}
+
+@keyframes area1_3_2{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_3_2;
+  left:75%; top:0%;
+}
+
+@keyframes image1_3_2{
+  from {left:-20%; top:120%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image1_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image1_3_2;
+  left:20%; top:10%;
+}
+
+@keyframes label2_3_2{
+  from {left:-25%; top:80%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label2_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label2_3_2;
+  left:45%; top:30%;
+}
+
+@keyframes image2_3_2{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:100%; top:30%; opacity: 1;}
+}
+
+div.image2_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image2_3_2;
+  left:100%; top:30%;
+}
+
+@keyframes label3_3_2{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:130%; top:30%; opacity: 1;}
+}
+
+div.label3_3_2{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label3_3_2;
+  left:130%; top:30%;
+}
+
+@keyframes bg1_3_4{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_3_4;
+  left:0%; top:0%;
+}
+
+@keyframes line1_3_4{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_3_4;
+  left:70%; top:0%;
+}
+
+@keyframes area1_3_4{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_3_4;
+  left:75%; top:0%;
+}
+
+@keyframes image2_3_4{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:-20%; top:120%; opacity: 1;}
+}
+
+div.image2_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image2_3_4;
+  left:-20%; top:120%;
+}
+
+@keyframes label3_3_4{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:-25%; top:100%; opacity: 1;}
+}
+
+div.label3_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label3_3_4;
+  left:-25%; top:100%;
+}
+
+@keyframes image3_3_4{
+  from {left:100%; top:30%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image3_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image3_3_4;
+  left:20%; top:10%;
+}
+
+@keyframes label4_3_4{
+  from {left:130%; top:30%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label4_3_4{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label4_3_4;
+  left:45%; top:30%;
+}
+
+@keyframes bg1_4_3{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_4_3;
+  left:0%; top:0%;
+}
+
+@keyframes line1_4_3{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_4_3;
+  left:70%; top:0%;
+}
+
+@keyframes area1_4_3{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_4_3;
+  left:75%; top:0%;
+}
+
+@keyframes image2_4_3{
+  from {left:-20%; top:120%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image2_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image2_4_3;
+  left:20%; top:10%;
+}
+
+@keyframes label3_4_3{
+  from {left:-25%; top:100%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label3_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label3_4_3;
+  left:45%; top:30%;
+}
+
+@keyframes image3_4_3{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:100%; top:30%; opacity: 1;}
+}
+
+div.image3_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image3_4_3;
+  left:100%; top:30%;
+}
+
+@keyframes label4_4_3{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:130%; top:30%; opacity: 1;}
+}
+
+div.label4_4_3{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label4_4_3;
+  left:130%; top:30%;
+}
+
+@keyframes bg1_4_5{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_4_5;
+  left:0%; top:0%;
+}
+
+@keyframes line1_4_5{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_4_5;
+  left:70%; top:0%;
+}
+
+@keyframes area1_4_5{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_4_5;
+  left:75%; top:0%;
+}
+
+@keyframes image3_4_5{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:-20%; top:120%; opacity: 1;}
+}
+
+div.image3_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image3_4_5;
+  left:-20%; top:120%;
+}
+
+@keyframes label4_4_5{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:-25%; top:100%; opacity: 1;}
+}
+
+div.label4_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label4_4_5;
+  left:-25%; top:100%;
+}
+
+@keyframes image4_4_5{
+  from {left:100%; top:30%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image4_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image4_4_5;
+  left:20%; top:10%;
+}
+
+@keyframes label5_4_5{
+  from {left:130%; top:30%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label5_4_5{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label5_4_5;
+  left:45%; top:30%;
+}
+
+@keyframes bg1_5_4{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_5_4;
+  left:0%; top:0%;
+}
+
+@keyframes line1_5_4{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_5_4;
+  left:70%; top:0%;
+}
+
+@keyframes area1_5_4{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_5_4;
+  left:75%; top:0%;
+}
+
+@keyframes image3_5_4{
+  from {left:-20%; top:120%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image3_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image3_5_4;
+  left:20%; top:10%;
+}
+
+@keyframes label4_5_4{
+  from {left:-25%; top:100%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label4_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label4_5_4;
+  left:45%; top:30%;
+}
+
+@keyframes image4_5_4{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:100%; top:30%; opacity: 1;}
+}
+
+div.image4_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image4_5_4;
+  left:100%; top:30%;
+}
+
+@keyframes label5_5_4{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:130%; top:30%; opacity: 1;}
+}
+
+div.label5_5_4{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label5_5_4;
+  left:130%; top:30%;
+}
+
+@keyframes bg1_5_6{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:0%; top:-50%; opacity: 1;}
+}
+
+div.bg1_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_5_6;
+  left:0%; top:-50%;
+}
+
+@keyframes line1_5_6{
+  from {left:70%; top:0%; opacity: 0.8;}
+  to {left:70%; top:-50%; opacity: 1;}
+}
+
+div.line1_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_5_6;
+  left:70%; top:-50%;
+}
+
+@keyframes area1_5_6{
+  from {left:75%; top:0%; opacity: 0.8;}
+  to {left:75%; top:-50%; opacity: 1;}
+}
+
+div.area1_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_5_6;
+  left:75%; top:-50%;
+}
+
+@keyframes image4_5_6{
+  from {left:20%; top:10%; opacity: 0.8;}
+  to {left:20%; top:-40%; opacity: 1;}
+}
+
+div.image4_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image4_5_6;
+  left:20%; top:-40%;
+}
+
+@keyframes label5_5_6{
+  from {left:45%; top:30%; opacity: 0.8;}
+  to {left:45%; top:-40%; opacity: 1;}
+}
+
+div.label5_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label5_5_6;
+  left:45%; top:-40%;
+}
+
+@keyframes label6_5_6{
+  from {left:35%; top:100%; opacity: 0.8;}
+  to {left:35%; top:70%; opacity: 1;}
+}
+
+div.label6_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label6_5_6;
+  left:35%; top:70%;
+}
+
+@keyframes line2_5_6{
+  from {left:-80%; top:50%; opacity: 0.8;}
+  to {left:-40%; top:50%; opacity: 1;}
+}
+
+div.line2_5_6{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line2_5_6;
+  left:-40%; top:50%;
+}
+
+@keyframes bg1_6_5{
+  from {left:0%; top:-50%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.bg1_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_6_5;
+  left:0%; top:0%;
+}
+
+@keyframes line1_6_5{
+  from {left:70%; top:-50%; opacity: 0.8;}
+  to {left:70%; top:0%; opacity: 1;}
+}
+
+div.line1_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_6_5;
+  left:70%; top:0%;
+}
+
+@keyframes area1_6_5{
+  from {left:75%; top:-50%; opacity: 0.8;}
+  to {left:75%; top:0%; opacity: 1;}
+}
+
+div.area1_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_6_5;
+  left:75%; top:0%;
+}
+
+@keyframes image4_6_5{
+  from {left:20%; top:-40%; opacity: 0.8;}
+  to {left:20%; top:10%; opacity: 1;}
+}
+
+div.image4_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image4_6_5;
+  left:20%; top:10%;
+}
+
+@keyframes label5_6_5{
+  from {left:45%; top:-40%; opacity: 0.8;}
+  to {left:45%; top:30%; opacity: 1;}
+}
+
+div.label5_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label5_6_5;
+  left:45%; top:30%;
+}
+
+@keyframes label6_6_5{
+  from {left:35%; top:70%; opacity: 0.8;}
+  to {left:35%; top:100%; opacity: 1;}
+}
+
+div.label6_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label6_6_5;
+  left:35%; top:100%;
+}
+
+@keyframes line2_6_5{
+  from {left:-40%; top:50%; opacity: 0.8;}
+  to {left:-80%; top:50%; opacity: 1;}
+}
+
+div.line2_6_5{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line2_6_5;
+  left:-80%; top:50%;
+}
+
+@keyframes bg1_6_7{
+  from {left:0%; top:-50%; opacity: 0.8;}
+  to {left:0%; top:-110%; opacity: 1;}
+}
+
+div.bg1_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:bg1_6_7;
+  left:0%; top:-110%;
+}
+
+@keyframes line1_6_7{
+  from {left:70%; top:-50%; opacity: 0.8;}
+  to {left:70%; top:-110%; opacity: 1;}
+}
+
+div.line1_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line1_6_7;
+  left:70%; top:-110%;
+}
+
+@keyframes area1_6_7{
+  from {left:75%; top:-50%; opacity: 0.8;}
+  to {left:75%; top:-110%; opacity: 1;}
+}
+
+div.area1_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:area1_6_7;
+  left:75%; top:-110%;
+}
+
+@keyframes image4_6_7{
+  from {left:20%; top:-40%; opacity: 0.8;}
+  to {left:20%; top:-100%; opacity: 1;}
+}
+
+div.image4_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image4_6_7;
+  left:20%; top:-100%;
+}
+
+@keyframes label5_6_7{
+  from {left:45%; top:-40%; opacity: 0.8;}
+  to {left:45%; top:-80%; opacity: 1;}
+}
+
+div.label5_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label5_6_7;
+  left:45%; top:-80%;
+}
+
+@keyframes label6_6_7{
+  from {left:35%; top:70%; opacity: 0.8;}
+  to {left:45%; top:-50%; opacity: 1;}
+}
+
+div.label6_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:label6_6_7;
+  left:45%; top:-50%;
+}
+
+@keyframes image5_6_7{
+  from {left:100%; top:80%; opacity: 0.8;}
+  to {left:35%; top:25%; opacity: 1;}
+}
+
+div.image5_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image5_6_7;
+  left:35%; top:25%;
+}
+
+@keyframes line2_6_7{
+  from {left:-40%; top:50%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.line2_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line2_6_7;
+  left:0%; top:0%;
+}
+
+@keyframes line3_6_7{
+  from {left:65%; top:-50%; opacity: 0.8;}
+  to {left:35%; top:0%; opacity: 1;}
+}
+
+div.line3_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line3_6_7;
+  left:35%; top:0%;
+}
+
+@keyframes line4_6_7{
+  from {left:65%; top:0%; opacity: 0.8;}
+  to {left:65%; top:0%; opacity: 1;}
+}
+
+div.line4_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line4_6_7;
+  left:65%; top:0%;
+}
+
+@keyframes mark1_6_7{
+  from {left:-50%; top:50%; opacity: 0.8;}
+  to {left:5%; top:50%; opacity: 1;}
+}
+
+div.mark1_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark1_6_7;
+  left:5%; top:50%;
+}
+
+@keyframes mark2_6_7{
+  from {left:100%; top:80%; opacity: 0.8;}
+  to {left:15%; top:80%; opacity: 1;}
+}
+
+div.mark2_6_7{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark2_6_7;
+  left:15%; top:80%;
+}
+
+@keyframes bg1_7_6{
+  from {left:0%; top:-110%; opacity: 0.8;}
+  to {left:0%; top:-50%; opacity: 1;}
+}
+
+div.bg1_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:bg1_7_6;
+  left:0%; top:-50%;
+}
+
+@keyframes line1_7_6{
+  from {left:70%; top:-110%; opacity: 0.8;}
+  to {left:70%; top:-50%; opacity: 1;}
+}
+
+div.line1_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line1_7_6;
+  left:70%; top:-50%;
+}
+
+@keyframes area1_7_6{
+  from {left:75%; top:-110%; opacity: 0.8;}
+  to {left:75%; top:-50%; opacity: 1;}
+}
+
+div.area1_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:area1_7_6;
+  left:75%; top:-50%;
+}
+
+@keyframes image4_7_6{
+  from {left:20%; top:-100%; opacity: 0.8;}
+  to {left:20%; top:-40%; opacity: 1;}
+}
+
+div.image4_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image4_7_6;
+  left:20%; top:-40%;
+}
+
+@keyframes label5_7_6{
+  from {left:45%; top:-80%; opacity: 0.8;}
+  to {left:45%; top:-40%; opacity: 1;}
+}
+
+div.label5_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label5_7_6;
+  left:45%; top:-40%;
+}
+
+@keyframes label6_7_6{
+  from {left:45%; top:-50%; opacity: 0.8;}
+  to {left:35%; top:70%; opacity: 1;}
+}
+
+div.label6_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:label6_7_6;
+  left:35%; top:70%;
+}
+
+@keyframes image5_7_6{
+  from {left:35%; top:25%; opacity: 0.8;}
+  to {left:100%; top:80%; opacity: 1;}
+}
+
+div.image5_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image5_7_6;
+  left:100%; top:80%;
+}
+
+@keyframes line2_7_6{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:-40%; top:50%; opacity: 1;}
+}
+
+div.line2_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line2_7_6;
+  left:-40%; top:50%;
+}
+
+@keyframes line3_7_6{
+  from {left:35%; top:0%; opacity: 0.8;}
+  to {left:65%; top:-50%; opacity: 1;}
+}
+
+div.line3_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line3_7_6;
+  left:65%; top:-50%;
+}
+
+@keyframes line4_7_6{
+  from {left:65%; top:0%; opacity: 0.8;}
+  to {left:65%; top:0%; opacity: 1;}
+}
+
+div.line4_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line4_7_6;
+  left:65%; top:0%;
+}
+
+@keyframes mark1_7_6{
+  from {left:5%; top:50%; opacity: 0.8;}
+  to {left:-50%; top:50%; opacity: 1;}
+}
+
+div.mark1_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark1_7_6;
+  left:-50%; top:50%;
+}
+
+@keyframes mark2_7_6{
+  from {left:15%; top:80%; opacity: 0.8;}
+  to {left:100%; top:80%; opacity: 1;}
+}
+
+div.mark2_7_6{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark2_7_6;
+  left:100%; top:80%;
+}
+
+@keyframes image5_7_8{
+  from {left:35%; top:25%; opacity: 0.8;}
+  to {left:-160%; top:25%; opacity: 1;}
+}
+
+div.image5_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image5_7_8;
+  left:-160%; top:25%;
+}
+
+@keyframes line2_7_8{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:10%; top:10%; opacity: 1;}
+}
+
+div.line2_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line2_7_8;
+  left:10%; top:10%;
+}
+
+@keyframes line3_7_8{
+  from {left:35%; top:0%; opacity: 0.8;}
+  to {left:25%; top:0%; opacity: 1;}
+}
+
+div.line3_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line3_7_8;
+  left:25%; top:0%;
+}
+
+@keyframes line4_7_8{
+  from {left:65%; top:0%; opacity: 0.8;}
+  to {left:75%; top:20%; opacity: 1;}
+}
+
+div.line4_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line4_7_8;
+  left:75%; top:20%;
+}
+
+@keyframes mark1_7_8{
+  from {left:5%; top:50%; opacity: 0.8;}
+  to {left:35%; top:50%; opacity: 1;}
+}
+
+div.mark1_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark1_7_8;
+  left:35%; top:50%;
+}
+
+@keyframes mark2_7_8{
+  from {left:15%; top:80%; opacity: 0.8;}
+  to {left:5%; top:80%; opacity: 1;}
+}
+
+div.mark2_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark2_7_8;
+  left:5%; top:80%;
+}
+
+@keyframes image6_7_8{
+  from {left:100%; top:25%; opacity: 0.8;}
+  to {left:35%; top:25%; opacity: 1;}
+}
+
+div.image6_7_8{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image6_7_8;
+  left:35%; top:25%;
+}
+
+@keyframes image5_8_7{
+  from {left:-160%; top:25%; opacity: 0.8;}
+  to {left:35%; top:25%; opacity: 1;}
+}
+
+div.image5_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image5_8_7;
+  left:35%; top:25%;
+}
+
+@keyframes line2_8_7{
+  from {left:10%; top:10%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.line2_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line2_8_7;
+  left:0%; top:0%;
+}
+
+@keyframes line3_8_7{
+  from {left:25%; top:0%; opacity: 0.8;}
+  to {left:35%; top:0%; opacity: 1;}
+}
+
+div.line3_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line3_8_7;
+  left:35%; top:0%;
+}
+
+@keyframes line4_8_7{
+  from {left:75%; top:20%; opacity: 0.8;}
+  to {left:65%; top:0%; opacity: 1;}
+}
+
+div.line4_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line4_8_7;
+  left:65%; top:0%;
+}
+
+@keyframes mark1_8_7{
+  from {left:35%; top:50%; opacity: 0.8;}
+  to {left:5%; top:50%; opacity: 1;}
+}
+
+div.mark1_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark1_8_7;
+  left:5%; top:50%;
+}
+
+@keyframes mark2_8_7{
+  from {left:5%; top:80%; opacity: 0.8;}
+  to {left:15%; top:80%; opacity: 1;}
+}
+
+div.mark2_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark2_8_7;
+  left:15%; top:80%;
+}
+
+@keyframes image6_8_7{
+  from {left:35%; top:25%; opacity: 0.8;}
+  to {left:100%; top:25%; opacity: 1;}
+}
+
+div.image6_8_7{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image6_8_7;
+  left:100%; top:25%;
+}
+
+@keyframes line2_8_9{
+  from {left:10%; top:10%; opacity: 0.8;}
+  to {left:0%; top:0%; opacity: 1;}
+}
+
+div.line2_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line2_8_9;
+  left:0%; top:0%;
+}
+
+@keyframes line3_8_9{
+  from {left:25%; top:0%; opacity: 0.8;}
+  to {left:35%; top:0%; opacity: 1;}
+}
+
+div.line3_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line3_8_9;
+  left:35%; top:0%;
+}
+
+@keyframes line4_8_9{
+  from {left:75%; top:20%; opacity: 0.8;}
+  to {left:65%; top:0%; opacity: 1;}
+}
+
+div.line4_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:line4_8_9;
+  left:65%; top:0%;
+}
+
+@keyframes mark1_8_9{
+  from {left:35%; top:50%; opacity: 0.8;}
+  to {left:35%; top:50%; opacity: 1;}
+}
+
+div.mark1_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark1_8_9;
+  left:35%; top:50%;
+}
+
+@keyframes mark2_8_9{
+  from {left:5%; top:80%; opacity: 0.8;}
+  to {left:5%; top:80%; opacity: 1;}
+}
+
+div.mark2_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:mark2_8_9;
+  left:5%; top:80%;
+}
+
+@keyframes image6_8_9{
+  from {left:35%; top:25%; opacity: 0.8;}
+  to {left:-160%; top:25%; opacity: 1;}
+}
+
+div.image6_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image6_8_9;
+  left:-160%; top:25%;
+}
+
+@keyframes image7_8_9{
+  from {left:100%; top:25%; opacity: 0.8;}
+  to {left:35%; top:25%; opacity: 1;}
+}
+
+div.image7_8_9{
+  position: absolute;
+  visibility:visible;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  opacity: 1;
+  animation-name:image7_8_9;
+  left:35%; top:25%;
+}
+
+@keyframes image6_9_8{
+  from {left:-160%; top:25%; opacity: 0.8;}
+  to {left:35%; top:25%; opacity: 1;}
+}
+
+div.image6_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image6_9_8;
+  left:35%; top:25%;
+}
+
+@keyframes line2_9_8{
+  from {left:0%; top:0%; opacity: 0.8;}
+  to {left:10%; top:10%; opacity: 1;}
+}
+
+div.line2_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line2_9_8;
+  left:10%; top:10%;
+}
+
+@keyframes line3_9_8{
+  from {left:35%; top:0%; opacity: 0.8;}
+  to {left:25%; top:0%; opacity: 1;}
+}
+
+div.line3_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line3_9_8;
+  left:25%; top:0%;
+}
+
+@keyframes line4_9_8{
+  from {left:65%; top:0%; opacity: 0.8;}
+  to {left:75%; top:20%; opacity: 1;}
+}
+
+div.line4_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:line4_9_8;
+  left:75%; top:20%;
+}
+
+@keyframes mark1_9_8{
+  from {left:35%; top:50%; opacity: 0.8;}
+  to {left:35%; top:50%; opacity: 1;}
+}
+
+div.mark1_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark1_9_8;
+  left:35%; top:50%;
+}
+
+@keyframes mark2_9_8{
+  from {left:5%; top:80%; opacity: 0.8;}
+  to {left:5%; top:80%; opacity: 1;}
+}
+
+div.mark2_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:mark2_9_8;
+  left:5%; top:80%;
+}
+
+@keyframes image7_9_8{
+  from {left:35%; top:25%; opacity: 0.8;}
+  to {left:100%; top:25%; opacity: 1;}
+}
+
+div.image7_9_8{
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  width:100%; height:100%;
+  animation-name:image7_9_8;
+  left:100%; top:25%;
+}
+

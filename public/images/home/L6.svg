@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="L6" width="1350" height="955" viewBox="0 0 1350 955" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<g clip-path="url(#clip0_380_126280)">
+<path opacity="0.4" d="M1688.12 983.327C1620.32 1000.58 1607.97 1005.56 1377.62 1022C1277.4 1029.15 1061.13 1011.87 1061.13 788.093C1061.13 582 1481.12 217 1303.68 14.8626C1192.62 -129.5 964.117 -82.3226 527.518 107.117C3.15143 334.64 -167.771 297.951 -329.513 234.575C-702.594 88.3895 -631.883 -40.5 -619.883 -240" stroke="white" stroke-width="3" stroke-dasharray="0,0,0,0,0,3972.3466796875"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="4.332552586418481s" values="0,0,0,0,0,3972.3466796875; 0,0,0,3179.5206957832943,792.8259839042056,0; 0,0,396.4129919521028,3575.933687735397,0,0; 0,1986.17333984375,0,1986.17333984375,0,0" keyTimes="0; 0.5; 0.5997931509802886; 1" begin="1.1597081979178507s"></animate></path>
+</g>
+<defs>
+<clipPath id="clip0_380_126280">
+<rect width="1350" height="955" fill="white" stroke-dasharray="0,0,0,0,0,4610"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="4.405777955017699s" values="0,0,0,0,0,4610; 0,0,0,3662.959648516877,947.0403514831228,0; 0,0,473.5201757415614,4136.479824258438,0,0; 0,2305,0,2305,0,0" keyTimes="0; 0.5; 0.6027158732628116; 1" begin="0.3283121943063257s"></animate></rect>
+</clipPath>
+</defs>
+<setting>{"type":"shift","speed":11,"random":0.8,"shift":0.5,"size":0.8,"rupture":23}</setting></svg>

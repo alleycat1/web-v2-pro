@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="L3" width="1623" height="862" viewBox="0 0 1623 862" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<g clip-path="url(#clip0_380_125520)">
+<path opacity="0.4" d="M0 195.845C38.5243 186.303 87.5566 180.096 218.455 171C275.402 167.042 405.505 189.709 356.281 303.834C284.792 469.582 74 633 198 746C278 813.5 406.227 787.471 659.5 680.5C957.466 554.651 1026 565.913 1077.5 576.5C1257.5 613.5 1300 766 1311.5 872.5" stroke="white" stroke-width="3" stroke-dasharray="0,0,0,0,0,2299.022705078125"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="7.674862884538476s" values="0,0,0,0,0,2299.022705078125; 0,0,0,2018.8942025962854,280.1285024818397,0; 0,0,140.06425124091984,2158.958453837205,0,0; 0,1149.5113525390625,0,1149.5113525390625,0,0" keyTimes="0; 0.5; 0.5609233875470404; 1" begin="1.775502112281238s"></animate></path>
+<path d="M-111 33.4523C-64.5996 21.4424 -58.5 8.99997 102.434 9C171.205 9.00001 327.726 32.5475 268.439 176.188C209.151 319.829 120.721 496.759 185.436 595.336C268.439 699.873 411.598 665.748 716.65 531.111C1075.53 372.715 1280.9 374.942 1394.9 408.663C1447.99 424.369 1529.9 458.942 1623.4 588.942" stroke="#5E409E" stroke-width="11" stroke-dasharray="0,0,0,0,0,2521.82177734375"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="7.449397366870798s" values="0,0,0,0,0,2521.82177734375; 0,0,0,2215.8726033947664,305.94917394898334,0; 0,0,152.97458697449167,2368.847190369258,0,0; 0,1260.910888671875,0,1260.910888671875,0,0" keyTimes="0; 0.5; 0.5606603481454668; 1" begin="1.58501041841898s"></animate></path>
+</g>
+<defs>
+<clipPath id="clip0_380_125520">
+<rect width="1623" height="862" fill="white" stroke-dasharray="0,0,0,0,0,4970"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="7.978135778541801s" values="0,0,0,0,0,4970; 0,0,0,4337.807833962747,632.1921660372533,0; 0,0,316.09608301862664,4653.903916981373,0,0; 0,2485,0,2485,0,0" keyTimes="0; 0.5; 0.5636008215329229; 1" begin="3.8904843075869513s"></animate></rect>
+</clipPath>
+</defs>
+<setting>{"type":"shift","speed":6,"random":0.8,"shift":0.5,"size":0.8,"rupture":15}</setting></svg>
